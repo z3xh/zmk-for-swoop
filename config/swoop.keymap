@@ -110,10 +110,10 @@
         number {
             label = "NUMBER";
             bindings = <
-&kp N1       &kp N2  &kp N3  &kp N4  &kp N5    &kp N6            &kp N7             &kp N8         &kp N9  &kp N0
-&bootloader  &none   &none   &none   &none     &kp GRAVE         &kp MINUS          &kp EQUAL      &none   &kp SQT
-&none        &none   &none   &none   &none     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &none   &none
-                     &trans  &trans  &mo 3     &none             &kp RIGHT_SHIFT    &trans
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6            &kp N7             &kp N8         &kp N9  &kp N0
+&none   &none   &none   &none   &none     &kp GRAVE         &kp MINUS          &kp EQUAL      &none   &kp SQT
+&none   &none   &none   &none   &none     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &none   &none
+                &trans  &trans  &mo 3     &none             &kp RIGHT_SHIFT    &bootloader
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
@@ -125,7 +125,7 @@
 &kp ESC   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &none     &kp PAGE_UP     &kp UP    &kp PAGE_DOWN  &trans
 &kp CAPS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp DOT            &kp HOME  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT      &trans
 &kp DEL   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp AT_SIGN        &kp END   &trans          &trans    &trans         &trans
-                           &trans           &trans           &trans             &mo 4     &trans          &trans
+                           &bootloader      &trans           &trans             &mo 4     &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
