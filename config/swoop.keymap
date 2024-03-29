@@ -126,7 +126,7 @@
             bindings = <
 &kp ESC   &trans  &kp W   &trans  &trans    &none     &kp PAGE_UP     &kp UP    &kp PAGE_DOWN  &trans
 &kp CAPS  &kp A   &trans  &kp S   &kp D     &kp HOME  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT      &kp R
-&kp DEL   &trans  &trans  &trans  &trans    &kp END   &mkp MB1        &mkp MB3  &mkp MB2       &kp F
+&kp DEL   &trans  &trans  &trans  &trans    &kp END   &kp E           &trans    &kp Q          &kp F
                   &trans  &trans  &trans    &mo 4     &kp CAPSLOCK    &trans
             >;
 
